@@ -122,9 +122,10 @@ Due to the difficulties of getting all software installed, we've also been worki
 downloads of the observing system for Raspberry Pi 4B+   These images of SDCards are big, 3.3 GBytes
 but include all code needed to perform astronomcial Observations.
 
-Finde the most recent large file in this directory: 
+Find the most recent large file in this directory: 
 https://drive.google.com/drive/folders/1t2soWvGIgze7wg-7QGlVgB0m3Q-BR3C-?usp=sharing
 
+And also download the most recent installation guide, in the same directory.
 
-Glen Langston --- National Science Foundation, May 29, 2020
+Glen Langston --- National Science Foundation, January 23, 2021
 
