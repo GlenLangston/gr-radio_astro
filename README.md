@@ -12,12 +12,14 @@ Because the computer load for transients and spectra the some of the plotting fu
 
 A summary of different Designs and devices is listed below:
 
-1. NsfIntegrate30 - RTL-SDR compatible devices operating with 3.0 MHz bandwidth
-2. NsfIntegrate45 - PlutoSdr devices operating at 4.5 MHz and not dropping any samples
-3. NsfIntegrate60 - AIRSPY Mini devices at 6.0 MHz
-5. NsfIntegrate70 - PlutoSdr devices operating at 7.0 MHz but dropping samples (as high as 12 MHz works, but more samples are dropped).
-4. NsfIntegrate90 - SDRPlay RSP 1A at 9.0 MHz
-5. NsfIntegrate100 - AIRSPY at 10.0 MHz.
+1. NsfIntegrate24 - RTL-SDR compatible devices operating with 2.4 MHz bandwidth
+2. NsfIntegrate25 - AIRSPY at 2.5 MHz
+3. NsfIntegrate30 - AIRSPY Mini devices at 3.0 MHz
+4. NsfIntegrate45 - PlutoSdr devices operating at 4.5 MHz and not dropping any samples
+5. NsfIntegrate60 - AIRSPY Mini devices at 6.0 MHz
+6. NsfIntegrate70 - PlutoSdr devices operating at 7.0 MHz but dropping samples (as high as 12 MHz works, but more samples are dropped).
+7. NsfIntegrate80 - SDRPlay RSP 1A at 8.0 MHz
+8. NsfIntegrate100 - AIRSPY at 10.0 MHz.
 
 The data analysis tools for gr-radio_astro usually run on different computers than the data acqusition.   The analysis software and documentation have moved to the repository:
 
@@ -113,6 +115,16 @@ The calibrated in Temperatre, Kelvins, spectra are shown with the "T" command.
 
 <a href="docs/SmallHornTcal.png"> <img src="docs/SmallHornTcal.png" width=600 
 alt="Calibrated spectra, showing the intensity in Kelvins versus velocity on the x axis." align="center"></a>
+
+# Raspberry Pi OS installed complete version
+
+Due to the difficulties of getting all software installed, we've also been working to provide complete 
+downloads of the observing system for Raspberry Pi 4B+   These images of SDCards are big, 3.3 GBytes
+but include all code needed to perform astronomcial Observations.
+
+Finde the most recent large file in this directory: 
+https://drive.google.com/drive/folders/1t2soWvGIgze7wg-7QGlVgB0m3Q-BR3C-?usp=sharing
+
 
 Glen Langston --- National Science Foundation, May 29, 2020
 
