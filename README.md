@@ -12,12 +12,13 @@ Because the computer load for transients and spectra the some of the plotting fu
 
 A summary of different Designs and devices is listed below:
 
-1. NsfIntegrate30 - RTL-SDR compatible devices operating with 3.0 MHz bandwidth
-2. NsfIntegrate45 - PlutoSdr devices operating at 4.5 MHz and not dropping any samples
-3. NsfIntegrate60 - AIRSPY Mini devices at 6.0 MHz
+1. NsfIntegrate24 - RTL-SDR compatible devices operating with 2.4 MHz bandwidth
+2. NsfIntegrate30 - AIRSPY Mini devices at 3.0 MHz
+3. NsfIntegrate45 - PlutoSdr devices operating at 4.5 MHz and not dropping any samples
+4. NsfIntegrate60 - AIRSPY Mini devices at 6.0 MHz
 5. NsfIntegrate70 - PlutoSdr devices operating at 7.0 MHz but dropping samples (as high as 12 MHz works, but more samples are dropped).
-4. NsfIntegrate90 - SDRPlay RSP 1A at 9.0 MHz
-5. NsfIntegrate100 - AIRSPY at 10.0 MHz.
+6. NsfIntegrate80 - SDRPlay RSP 1A at 8.0 MHz
+7. NsfIntegrate100 - AIRSPY at 10.0 MHz.
 
 The data analysis tools for gr-radio_astro usually run on different computers than the data acqusition.   The analysis software and documentation have moved to the repository:
 
@@ -114,5 +115,5 @@ The calibrated in Temperatre, Kelvins, spectra are shown with the "T" command.
 <a href="docs/SmallHornTcal.png"> <img src="docs/SmallHornTcal.png" width=600 
 alt="Calibrated spectra, showing the intensity in Kelvins versus velocity on the x axis." align="center"></a>
 
-Glen Langston --- National Science Foundation, May 29, 2020
+Glen Langston --- National Science Foundation, February, 2021
 
